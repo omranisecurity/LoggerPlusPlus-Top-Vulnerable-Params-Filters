@@ -39,7 +39,7 @@ Request.Query == /\b(?:cmd|exec|command|execute|ping|query|jump|code|reg|do|func
 
 ## Top Parameters of Open Redirect Vulnerability
 ```
-Request.Query == /\b(?:next|url|target|rurl|dest|destination|redir|redirect_url|redirect_uri|redirect|cgi-bin/redirect.cgi|out|view|login?to|image_url|go|return|return_to|checkout_url|continue|Lmage_url|Open|callback|checkout|data|domain|feed|file|file_name|file_url|folder|folder_url|forward|from_url|goto|host|html|img_url|load_file|load_url|login_url|logout|navigation|next_page|page|page_url|port|redirect_to|reference|return_path|return_url|rt|show|site|to|uri|val|validate|window)\b/
+Request.Query == /\b(?:next|url|target|rurl|dest|destination|redir|redirect_url|redirect_uri|redirect|redirect.cgi|out|view|image_url|go|return|return_to|checkout_url|continue|Lmage_url|Open|callback|checkout|data|domain|feed|file|file_name|file_url|folder|folder_url|forward|from_url|goto|host|html|img_url|load_file|load_url|login_url|logout|navigation|next_page|page|page_url|port|redirect_to|reference|return_path|return_url|rt|show|site|to|uri|val|validate|window)\b/
 ```
 
 ## Top Parameters of IDOR Vulnerability
