@@ -1,4 +1,13 @@
-# LoggerPlusPlus-Top-Vulnerable-Params-Filters
+<h1 align="center">
+LoggerPlusPlus Top Vulnerable Params Filters
+</h1>
+
+<p align="center">
+<a href="https://github.com/omranisecurity/LoggerPlusPlus-Top-Vulnerable-Params-Filters/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/omranisecurity/LoggerPlusPlus-Top-Vulnerable-Params-Filters/releases"><img src="https://img.shields.io/badge/release-v1.0.0-blue"></a>
+<a href="https://twitter.com/omranisecurity"><img src="https://img.shields.io/twitter/follow/omranisecurity?logo=twitter"></a>
+</p>
+
 Logger++ is a multithreaded logging extension for Burp Suite. In addition to logging requests and responses from all Burp Suite tools, the extension allows advanced filters to be defined to highlight interesting entries or filter logs to only those which match the filter.
 
 This repository has been created by collecting parameters suspected to be vulnerable to various attacks, to help you quickly and easily identify suspicious endpoints while working with Burp Suite and Logger++.
@@ -42,3 +51,17 @@ Request.Query == /\b(?:id|user|account|number|order|no|doc|key|email|group|profi
 ```
 Request.Query == /\b(?:template|preview|id|view|activity|name|content|redirect)\b/
 ```
+
+## Credits and Thanks
+The information gathered in this repository has been extracted from the following projects, and I sincerely thank the experts involved in these projects.<br>
+[@jhaddix](https://github.com/jhaddix)<br>
+https://github.com/jhaddix/HUNT
+
+[@lutfumertceylan](https://github.com/lutfumertceylan)<br>
+https://github.com/lutfumertceylan/top25-parameter
+
+[@tomnomnom](https://github.com/tomnomnom/)<br>
+https://github.com/tomnomnom/gf
+
+[@1ndianl33t](https://github.com/1ndianl33t/)<br>
+https://github.com/1ndianl33t/Gf-Patterns
