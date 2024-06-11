@@ -53,7 +53,7 @@ Request.Query == /\b(?:template|preview|id|view|activity|name|content|redirect)\
 ```
 
 ## Credits and Thanks
-The information gathered in this repository has been extracted from the following projects, and I sincerely thank the experts involved in these projects.<br>
+The information gathered in this repository has been extracted from the following projects, and I sincerely thank the experts involved in these projects.<br><br>
 [@jhaddix](https://github.com/jhaddix)<br>
 https://github.com/jhaddix/HUNT
 
